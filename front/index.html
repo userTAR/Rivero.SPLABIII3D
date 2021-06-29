@@ -65,12 +65,19 @@
         <div>
             <fieldset>
                 <legend>Filtros</legend>
-                
-                <label for="txtTitulo">TITULO:</label>
-                <input type="text" name="txtTitulo" id="txtTitulo" placeholder="Título"><span id="spanTitulo">*</span>
-                <label for="">TRANSACCION:</label>
-                <label class="cbo" for="cboVenta">Venta</label>
-                <input type="radio" name="cboVenta" id="cboVenta" value="venta" checked>
+                <label for="txtFiltrarTransaccion">FILTRAR TRANSACCION</label>
+
+                <label class="cbo" for="cboFiltrarN/A">N/A</label>
+                <input type="radio" name="cboFiltrarN/A" id="cboFiltrarN/A" value="n/a" checked>
+
+                <label class="cbo" for="cboFiltrarVenta">VENTA</label>
+                <input type="radio" name="cboFiltrarVenta" id="cboFiltrarVenta" value="venta">
+
+                <label class="cbo" for="cboFiltrarAlquiler">ALQUILER</label>
+                <input type="radio" name="cboFiltrarVenta" id="cboFiltrarAlquiler" value="alquiler">
+
+                <label for="">PROMEDIO:</label>
+                <input type="text" name="txtPromedio" id="txtPromedio" value="0" readonly>
             </fieldset>
         </div>
 
