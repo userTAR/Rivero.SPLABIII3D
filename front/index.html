@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <!-- <script type="module" src="../javascript/clasesAuto.js"></script> -->
+        <script type="module" src="../javascript/logica.js"></script>
+    
+    <title>Parcial FRONTEND</title>
+</head>
+<body id="body">
+    <header>
+        <div id="headerDiv">
+            <img id="logo" src="../resources/logo.png" alt="">
+            <nav>
+                <ul>
+                    <li>Nostros</li>
+                    <li>Anuncios</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="divForm">
+            <h2>Administración</h2>
+            <img id="autoMain" src="../resources/ultrawide.jpg" alt="">
+            <form action="" id="formulario">
+                <fieldset>
+                    <legend>Información Del Anuncio</legend>
+                    <input type="text" id="txtId" readonly style="display: none;">
+                    <label for="txtTitulo">TITULO:</label>
+                    <input type="text" name="txtTitulo" id="txtTitulo" placeholder="Título"><span id="spanTitulo">*</span>
+                    <label for="">TRANSACCION:</label>
+                    <label class="cbo" for="cboVenta">Venta</label>
+                    <input type="radio" name="cboVenta" id="cboVenta" value="venta" checked>
+                    <label class="cbo" for="cboAlquiler">Alquiler</label>
+                    <input type="radio" name="cboVenta" id="cboAlquiler" value="alquiler">
+                    <label for="txtDescripcion">DESCRIPCION:</label>
+                    <input type="text" name="txtDescripcion" id="txtDescripcion" placeholder="Descripcion"><span id="spanDescripcion">*</span>
+                    <label for="txtPrecio">PRECIO:</label>
+                    <input type="number" name="txtPrecio" id="txtPrecio" placeholder="Precio"><span id="spanPrecio">*</span>
+                    <label for="txtPuertas"><img class="iconos" src="../resources/puerta.png" alt=""></label>
+                    <input type="number" name="txtPuertas" id="txtPuertas" placeholder="Puertas"><span id="spanPuertas">*</span>
+                    <label for="txtKm"><img class="iconos" src="../resources/dashboard.png" alt=""></label>
+                    <input type="number" name="txtKm" id="txtKm" min="0" placeholder="Km's"><span id="spanKm">*</span>
+                    <label for="txtPotencia"><img class="iconos" src="../resources/horsepower.png" alt=""></label>
+                    <input type="number" name="txtPotencia" id="txtPotencia" min="0" placeholder="Potencia"><span id="spanPotencia">*</span>
+                </fieldset>
+                <div id="botones_form">
+                    <div id="divGuardar">
+                        <img src="../resources/save.png" alt="">
+                        <input class="boton" id="btnGuardar" type="button" value="GUARDAR">
+                    </div>
+                    <input class="boton" id="btnEliminar" type="button" value="ELIMINAR">
+                    <input class="boton" id="btnCancelar" type="button" value="CANCELAR">
+                </div>
+            </form>
+        </div>
+        <img id="spinner" src="">
+        <div id="divTabla"></div>
+        <div>
+            <fieldset>
+                <legend>Filtros</legend>
+                
+                <label for="txtTitulo">TITULO:</label>
+                <input type="text" name="txtTitulo" id="txtTitulo" placeholder="Título"><span id="spanTitulo">*</span>
+                <label for="">TRANSACCION:</label>
+                <label class="cbo" for="cboVenta">Venta</label>
+                <input type="radio" name="cboVenta" id="cboVenta" value="venta" checked>
+            </fieldset>
+        </div>
+
+
+    </main>
+    <footer>
+        <ul>
+            <li>Nosotros</li>
+            <li>Anuncios</li>
+            <li>Blog</li>
+            <li>Contacto</li>
+        </ul>
+        <p>Todos los Derechos Reservados 2019 ©</p>
+    </footer>
+</body>
+</html>

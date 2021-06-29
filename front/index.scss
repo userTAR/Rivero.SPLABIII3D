@@ -1,0 +1,117 @@
+main{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#divForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main h2{
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+}
+label{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+input{
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(0,0,0,0.2);
+}
+.boton{
+    margin-top:2%;
+    color: white;
+    border-radius: 0%;
+    border: none;
+    font-size: small;
+}
+#botones_form{
+    text-align: center;
+}
+#btnGuardar{
+    background-color: rgb(68, 175, 56);
+}
+#btnGuardar:hover{
+    background-color: rgba(68, 220, 150, 1);
+}
+#btnEliminar{
+    background-color: red;
+    display: none;
+}
+#btnEliminar:hover{
+    background-color: rgba(240, 50, 20, 1);
+}
+#btnCancelar{
+    background-color: blue;
+    display: none;
+}
+#btnCancelar:hover{
+    background-color: rgba(30, 80, 230, 1);
+}
+span{
+    display: none;
+}
+#divTabla{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#tablaListado, #tablaListado th, #tablaListado td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tablaListado thead
+{
+    background-color: aqua;
+}
+.iconos{
+    width: 20px;
+    height: 20px;
+}
+.cbo{
+    justify-content: left;
+}
+header, footer{
+    background-color:rgb(28, 28, 155);
+    color: white;
+}
+#headerDiv , footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul li{
+    padding-right: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+}
+footer p{
+    padding-right: 4px;
+}
+#logo{
+    width: 100px;
+    margin-left: 5px;
+
+}
+#autoMain{
+    width: 90%;
+    height: 100px;
+}
+#divGuardar img{
+    margin-top: 5%;
+    width: auto;
+    height: 15px;
+}
+#spinner{
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+}
+
